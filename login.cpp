@@ -25,3 +25,14 @@ void loginUser(string username, string password){
         cout << "Invalid username or password. Please try again." << endl;
     }
 }
+
+//implement both functions
+int main(){
+    string username, password;
+    //registration process
+    cout << "Enter a username" << endl;
+    cin >> username;
+    cout << "Enter a password" << endl;
+    cin >> password;
+    registerUser(username, password);
+}
