@@ -35,4 +35,13 @@ int main(){
     cout << "Enter a password" << endl;
     cin >> password;
     registerUser(username, password);
+
+    //login process
+    cout << "Enter your username" << endl;
+    cin >> username;
+    cout << "Enter your password" << endl;
+    cin >> password;
+    loginUser(username, password);
+
+    return 0;
 }
