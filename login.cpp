@@ -17,7 +17,7 @@ void registerUser(string username, string password){
     }
 }
 
-//lpgin function
+//login function
 void loginUser(string username, string password){
     if(userDatabase.find(username) != userDatabase.end() && userDatabase[username] == password){
         cout << "login successful" << endl;
